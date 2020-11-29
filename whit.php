@@ -9,7 +9,7 @@ error_reporting(0);
 @$pass = $_POST['pass'];
 $chk_login = true;
 $username = "kareem";
-$password = "132465";
+$password = "123";
 
 //END CONFIGURATION
 
