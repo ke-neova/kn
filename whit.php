@@ -278,7 +278,7 @@ if(isset($_GET['filesrc'])){
     echo '</table>
     </div>';
 }
-echo '<br />novlear File Manager Version <font color="red">1.0</font>, Coded By <font color="red">novlear HaCkEr</font><br />Email: <font color="kremhack@gmail.com</font>
+echo '<br />novlear File Manager Version <font color="red">1.0</font>, Coded By <font color="red">novlear HaCkEr</font><br />Email: <font color="snooby.mob@gmail.com</font>
 </BODY>
 </HTML>';
 function perms($file){
